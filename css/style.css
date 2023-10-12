@@ -61,20 +61,19 @@ a {
 
 /****** Header ***********/
 header {
-    position: relative;
-    display: inline-flex;
-
-    width: 100%
+    display: flex;
+    width: 100%;
+    margin-bottom: 10px;
+    justify-content: space-between;
 }
 
 .logo-header {
-    flex-grow: 3;
-    padding: 20px
+    align-items: center;
+    padding: 20px 0 20px 0;
 }
 
 .logo-header img {
-    width: 18%;
-    height: auto;
+    width: 26%;
 }
 
 nav {
@@ -83,9 +82,13 @@ nav {
 }
 
 .link-nav {
+    font-size: 16px;
     text-align: center;
-    padding: 20px 10px 10px 10px;
-    margin-top: 0;
+    padding: 20px 0 10px 0;
+
+    /* Transparent border on top to avoid having
+       the text moving around when hovering */
+    border-top: 2px solid #FFFFFF00
 }
 
 .link-nav:hover {
