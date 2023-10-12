@@ -17,6 +17,7 @@ body {
     margin: 0;
     display: flex;
     justify-content: center;
+    margin-bottom: 0;
 }
 
 .main-container {
@@ -160,6 +161,35 @@ nav {
     margin-bottom: 5px;
 }
 
+/****** Footer ***********/
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: var(--main-bg-color);
+    background-clip: border-box;
+    background-size: cover;
+    margin-top: 100px;
+    padding: 20px
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+    align-content:space-evenly;
+    gap: 10px;
+}
+
+.footer-column h4 {
+    margin: 0;
+}
+
+.footer-column a {
+    display: block;
+}
+
+.footer-column a:hover {
+    text-decoration: underline;
+}
 
 
 
