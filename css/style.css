@@ -106,6 +106,7 @@ nav {
     margin-bottom: 35px;
 }
 
+    /****** Info group Headline ***********/
 .info-headline {
     display: flex;
     flex-direction: column;
@@ -117,6 +118,7 @@ nav {
     margin-bottom: 8px;
 }
 
+    /****** Info group search-bar and filters***********/
 .search-bar {
     /* width: 20%; */
     width: 377px;
@@ -182,7 +184,7 @@ nav {
 .filter-button .fa-solid {
     margin-right: 11px;
 }
-
+    /****** Info group Infobar ***********/
 .infobar {
     display: flex;
     justify-content: flex-start;
@@ -193,7 +195,7 @@ nav {
     height: 24px;
 }
 
-.icon-container {/* The only way I found to center the icon was to put it in a flex container*/
+.infobar .infobar-icon-container {/* The only way I found to center the icon was to put it in a flex container*/
     display: flex;
     text-align: center;
     align-items: center;
