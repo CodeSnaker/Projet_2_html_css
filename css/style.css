@@ -97,6 +97,114 @@ nav {
     border-top: 2px solid var(--main-color);
 }
 
+/****** Section info group ***********/
+.info-section {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-bottom: 35px;
+}
+
+.info-headline {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info-headline .section-title {
+    margin-bottom: 8px;
+}
+
+.search-bar {
+    /* width: 20%; */
+    width: 377px;
+    height: 49px;
+    display: grid;
+    grid-template: 1fr / 1fr 2fr 2fr;
+    text-align: center;
+}
+
+.search-bar .fa-solid {
+    background-color: var(--main-bg-color);
+    border-radius: 15px 0 0 15px;
+    padding: 15px 16px;
+}
+
+.search-field {
+    border: 1px solid var(--main-bg-color);
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.search-button {
+    padding: 15px 16px;
+    border: 1px solid var(--main-color);
+    border-radius: 0 15px 15px 0;
+    background-color: var(--main-color);
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.filters-container {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.filters-caption {
+    font-size: 18px;
+    font-weight: 700;
+    padding: 6px 0;
+    margin-right: 7.5px;
+}
+
+.filter-button {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between; */
+    text-align: center;
+    font-style: normal;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 4px 19px;
+    margin: 0 7.5px;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+}
+
+.filter-button:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.filter-button .fa-solid {
+    margin-right: 11px;
+}
+
+.infobar {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 400px;
+    height: 24px;
+}
+
+.infobar .fa-solid {
+    text-align: center;
+    align-self:baseline;
+    width: 24px;
+    height: 24px;
+    padding: auto;
+    border: 1px solid #D9D9D9;
+    border-radius: 12px;
+    margin-right: 10px;
+}
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
