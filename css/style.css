@@ -265,7 +265,14 @@ nav {
 
 .hebergements-cards .card-txt {
     text-align: left;
-    text-wrap: nowrap;
+}
+
+.card-txt h3 {
+    margin: 0;
+}
+
+.card-txt p {
+    margin: 8px 0;
 }
 
 .hebergements .see-more {
