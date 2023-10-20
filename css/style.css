@@ -267,11 +267,11 @@ nav {
     text-align: left;
 }
 
-.card-txt h3 {
+.hebergements-cards .card-txt h3 {
     margin: 0;
 }
 
-.card-txt p {
+.hebergements-cards .card-txt p {
     margin: 8px 0;
 }
 
