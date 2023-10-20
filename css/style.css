@@ -337,16 +337,16 @@ nav {
     gap: 30px;
 }
 
-.activites-cards .card {
-    display: flex;
-    flex-direction: column;
-    padding: 0;
-}
-
 .activites-cards {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
+}
+
+.activites-cards .card {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
 }
 
 .activites-cards img {
