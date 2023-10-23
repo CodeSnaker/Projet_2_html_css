@@ -126,7 +126,7 @@ nav {
     text-align: center;
 }
 
-.search-bar .fa-solid {
+.search-bar .fa-location-dot {
     /* fa-solid designates font awesome icons */
     background-color: var(--main-bg-color);
     color: #000000;
@@ -145,7 +145,7 @@ nav {
     color: #000;
 }
 
-.search-button {
+.search-button, .search-button-mobile {
     padding: 15px 16px;
     border: 1px solid var(--main-color);
     border-radius: 0 15px 15px 0;
@@ -153,6 +153,15 @@ nav {
     color: white;
     font-size: 18px;
     font-weight: 700;
+    cursor: pointer;
+}
+
+.search-button-mobile {
+    width: 49px;
+    display: none;
+    font-family: FontAwesome;
+    border-radius: 15px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .filters-container {
@@ -438,6 +447,12 @@ footer {
         padding: 0;
     }
 
+    .section-title {
+        font-size: 22px;
+    }
+
+    /* Header */
+
     header {
         justify-content: center;
         flex-wrap: wrap;
@@ -460,4 +475,71 @@ footer {
         border-top: none;
         border-bottom: 2px solid var(--main-bg-color);
     }
+
+    /* Info section */
+
+    .info-section {
+        padding: 0 20px;
+        margin-bottom: 35px;
+    }
+
+    .search-bar {
+        /* max-width: 335px; */
+        width: 100%;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .search-button {
+        display: none;
+    }
+
+    .search-button-mobile {
+        display: unset;
+    }
+
+    .filters-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filters-buttons {
+        display: grid;
+        grid-template: 1fr 1fr / 1fr 1fr;
+    }
+
+    /* Hebergements et Populaires */
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section {
+        padding: 30px 20px;
+        border-radius: 0;
+    }
+
+    /* Populaires */
+    .populaires {
+        display: flex;
+        flex-direction: column;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards .card {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .populaires-cards img {
+        height: 146px;
+    }
+
+    .populaires-cards .card-content {
+        width: 100%;
+    }
+
 }
