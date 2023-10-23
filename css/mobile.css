@@ -1,0 +1,139 @@
+/* Small devices (phones, less than 768px) */
+@media (max-width: 767.98px) {
+
+    .main-container {
+        padding: 0;
+    }
+
+    .section-title {
+        font-size: 22px;
+    }
+
+    /* Header */
+
+    header {
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+    }
+
+    .logo-header {
+        padding: 30px;
+    }
+
+    nav {
+        width: 100%;
+        gap: 0;
+    }
+
+    .link-nav {
+        padding: 0 0 15px;
+        width: 100%;
+        border-top: none;
+        border-bottom: 2px solid var(--main-bg-color);
+    }
+
+    /* Info section */
+
+    .info-section {
+        padding: 0 20px;
+        margin-bottom: 35px;
+    }
+
+    .search-bar {
+        /* max-width: 335px; */
+        width: 100%;
+        grid-template-columns: 1fr 2fr 1fr;
+    }
+
+    .search-button {
+        display: none;
+    }
+
+    .search-button-mobile {
+        display: unset;
+    }
+
+    .filters-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filters-buttons {
+        width: 100%;
+        display: grid;
+        gap: 10px;
+        grid-template: 1fr 1fr / 1fr 1fr;
+    }
+
+    .filter-button {
+        font-size: 14px;
+    }
+
+    /* Hebergements et Populaires */
+    .hebergements-and-populaires {
+        flex-direction: column-reverse;
+    }
+
+    .hebergements-and-populaires section {
+        padding: 30px 20px;
+        border-radius: 0;
+    }
+
+    /* Populaires */
+    .populaires {
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .populaires-cards {
+        flex-direction: column;
+    }
+
+    .populaires-cards a {
+        width: 100%;
+    }
+
+    .populaires-cards .card {
+        margin-top: 15px;
+    }
+
+    .populaires-cards img {
+        height: 146px;
+    }
+
+    .populaires-cards .card-title {
+        font-size: 16px;
+    }
+
+    .populaires-cards .card-subtitle {
+        font-size: 14px;
+    }
+    
+    /* hebergements */
+    section.hebergements {
+        width: 100%;
+        background-color: white;
+    }
+
+    .hebergements-cards {
+        grid-template-columns: 1fr;
+    }
+
+    /* activites */
+    .activites-cards {
+        grid-template-columns: 1fr;
+    }
+
+    .activites-cards img {
+        height: 141px;
+    }
+
+    /* Footer */
+    footer {
+        grid-template-columns: 1fr;
+        gap: 50px;
+        padding: 30px;
+    }
+
+}
