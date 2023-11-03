@@ -139,6 +139,7 @@ nav {
     text-align: center;
     font-weight: 700;
     font-size: 18px;
+    outline: none;
 }
 
 .search-field::placeholder {
